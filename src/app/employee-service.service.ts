@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class EmployeeServiceService {
 
-  private REST_API_SERVER = "https://mongoapiservice.azurewebsites.net/api/SocialDistancingTracker";
+  private REST_API_SERVER = "https://mongoapiservice.azurewebsites.net/api/SocialDistancingTracker/getFiltered";
 
   constructor(private httpClient: HttpClient) { }
 
